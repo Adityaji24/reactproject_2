@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "title": "Music Concert",
+      "date": "Oct 30, 2024",
+      "location": "Central Park, Delhi",
+      "description": "Join us for an evening of great music featuring local artists.",
+      "ticketPrices": {
+        "gold": 100,
+        "silver": 75,
+        "platinum": 150
+      },
+      "timeSlots": ["6:00 PM", "7:30 PM", "9:00 PM"]
+    },
+    {
+      "id": 2,
+      "title": "Art Exhibition",
+      "date": "Nov 10, 2024",
+      "location": "Art Gallery, Indore",
+      "description": "Explore stunning artworks by emerging artists in our annual exhibition.",
+      "ticketPrices": {
+        "gold": 50,
+        "silver": 30,
+        "platinum": 80
+      },
+      "timeSlots": ["10:00 AM", "1:00 PM", "4:00 PM"]
+    }
+  ]
+  

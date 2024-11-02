@@ -1,0 +1,80 @@
+/* Home.css */
+
+.home-container {
+    padding: 20px;
+  }
+  
+  .intro-section {
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 80px;
+  }
+  
+  .events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  
+  .cta-section {
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .cta-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: white; /* White text for contrast */
+    text-align: center;
+    padding: 20px 0; /* Padding around the footer */
+  }
+  
+  .footer p {
+    margin: 5px 0; /* Adjust margin for paragraphs */
+  }
+  
+  .footer .social-media-icons {
+    margin-top: 10px; /* Space above icons */
+  }
+  
+  .social-media-icons i {
+    font-size: 30px; /* Size of icons */
+    margin: 0 10px; /* Spacing between icons */
+    color: white; /* Icon color */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .social-media-icons i:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .intro-section h1 {
+      font-size: 2rem; /* Adjust font size on smaller screens */
+    }
+  
+    .cta-section h2 {
+      font-size: 1.5rem; /* Smaller font size for the heading */
+    }
+  
+    .events-grid {
+      grid-template-columns: 1fr; /* Stack cards in a single column */
+    }
+  }

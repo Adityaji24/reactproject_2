@@ -1,0 +1,56 @@
+/* src/components/EventCard.css */
+
+.event-card {
+    background: aliceblue;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    height: 530px;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .event-image {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .event-title {
+    font-size: 1.5em; /* Larger font for the event title */
+    margin-bottom: 10px; /* Space below the title */
+    font-weight: bold; /* Make the title bold */
+  }
+  
+  .event-date {
+    font-size: 1.2em; /* Slightly larger font for the date */
+    color: gray; /* Subtle color for the date */
+    margin-bottom: 15px; /* Space below the date */
+  }
+  
+  .event-location {
+    font-size: 1em; /* Standard font size for location */
+    color: darkslategray; /* Color for location text */
+    margin-bottom: 15px; /* Space below the location */
+  }
+  
+  button {
+    background-color: greenyellow;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding for better button size */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  button:hover {
+    background-color: limegreen; /* Change button color on hover */
+  }
+  

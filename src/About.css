@@ -1,0 +1,38 @@
+/* src/pages/About.css */
+
+.about-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center align text for better presentation */
+  }
+  
+  .about-container h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Increased font size for the header */
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    line-height: 1.6;
+    color: #34495e;
+    margin: 15px 0; /* Spacing between paragraphs */
+  }
+  
+  .about-container a {
+    color: #2980b9; /* Change link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .about-container a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+  }
+  

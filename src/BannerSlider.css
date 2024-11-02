@@ -1,0 +1,18 @@
+/* BannerSlider.css */
+.banner-container {
+    width: 100%;
+    max-width: 1000px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .banner-slide {
+    height: 400px; /* Set a height for the slides */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    color: red; /* Text color for better visibility */
+    text-shadow: 1px 1px 2px black; /* Optional for text readability */
+  }
+  
