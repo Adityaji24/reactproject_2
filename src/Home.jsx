@@ -2,7 +2,7 @@
 
 import React from "react";
 import Navbar from "./navbar"
-import BannerSlider from "./BannerSlider";
+import BannerSlider from "./Bannerslider";
 import EventCard from "./EventCard";
 import "./Home.css";
 import concertImg from "./images/concert.jpg";
