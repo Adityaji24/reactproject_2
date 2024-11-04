@@ -1,7 +1,7 @@
 // src/components/Home.js
 
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "./navbar"
 import BannerSlider from "./BannerSlider";
 import EventCard from "./EventCard";
 import "./Home.css";
