@@ -1,9 +1,9 @@
 // BannerSlider.js
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel'; // Make sure to import Carousel
-import musicBanner from "./images/concertm.jpeg";
-import artBanner from "./images/art.jpeg";
-import foodBanner from "./images/food2.jpeg";
+import musicBanner from "./images/musical.jpg";
+import artBanner from "./images/arts.jpg";
+import foodBanner from "./images/food3.jpg";
 
 const BannerSlider = () => {
   return (
